@@ -1,3 +1,7 @@
 a.btn {
     margin-bottom: 5px;
 }
+
+.panel-body img{
+    max-height: 175px;
+}
