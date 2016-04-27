@@ -2,13 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/material-icons.css">
     <title>Title</title>
 </head>
 <body>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+                    aria-expanded="false">
+                <i class="material-icons">menu</i>
+            </button>
+            <a class="navbar-brand" href="#">Hanoi Quizz</a>
+        </div>
 
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">Places</a>
+                </li>
+                <li>
+                    <a href="#">Food & Drink</a>
+                </li>
+                <li>
+                    <a href="#">Tips</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Welcome to Ha Noi</h1>
+        <p>Best place to live and play</p>
+        <p>Play quiz and building your knowledge about Ha Noi</p>
+    </div>
+</div>
+<div class="container">
+    <ul class="nav nav-pills " style="margin-bottom: 10px;">
+        <li class="active"><a href="#pill_1" data-toggle="pill">Places</a></li>
+        <li><a href="#pill_2" data-toggle="pill">Food & Drink</a></li>
+        <li><a href="#pill_4" data-toggle="pill">Tips</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="pill_1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h5>Museum</h5>
+                </div>
+                <div class="panel-body">
+                    <img src="assets/images/hanoi_baotang.jpg" style="width: 100%">
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h5>Shopping Mall</h5>
+                </div>
+                <div class="panel-body">
+                    <img src="assets/images/hanoi_shoppingmaill.jpg" style="width: 100%">
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h5>Historic Sites</h5>
+                </div>
+                <div class="panel-body">
+                    <img src="assets/images/hanoi_03.jpg" style="width: 100%">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="pill_2">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h5>Noodle</h5>
+                </div>
+                <div class="panel-body">
+                    <img src="assets/images/pho-hanoi.jpg" style="width: 100%">
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h5>Bia Hoi</h5>
+                </div>
+                <div class="panel-body">
+                    <img src="assets/images/hanoi_biahoi.jpg" style="width: 100%">
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h5>Restaurant</h5>
+                </div>
+                <div class="panel-body">
+                    <img src="assets/images/hanoi-wild-lotus-restaurant.jpg" style="width: 100%">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="pill_4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h5>Traffic jam</h5>
+                </div>
+                <div class="panel-body">
+                    <img src="assets/images/hanoi_tacduong.jpg" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 <script type="text/javascript" src="assets/js/jquery-2.2.3.min.js"></script>
-<script type="text/javascript" src="assets/js/materialize.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 </html>
